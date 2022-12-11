@@ -2,4 +2,25 @@ body {
     color: darkblue;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#container {
+    width: 70%;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0 10px 0 10px;
+    margin: auto;
+}
+
+#container h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#post p {
+    color: black;
 }
