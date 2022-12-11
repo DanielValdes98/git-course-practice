@@ -7,6 +7,24 @@ body {
     font-size: 16px;
 }
 
+#cabecera {
+    background-color: burlywood;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 1rem;
+    -webkit-box-shadow: 0px 24px 18px -12px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px 24px 18px -12px rgba(0,0,0,0.54);
+    box-shadow: 0px 24px 18px -12px rgba(0,0,0,0.54);
+}
+
+#cabecera #tagline {
+    padding: 1rem;
+    font-weight: normal;
+    font-size: .8rem;
+
+}
+
 #container {
     width: 70%;
     padding: 2rem;
@@ -21,6 +39,11 @@ body {
     font-weight: bold;
 }
 
+#post {
+    padding: 1rem;
+}
+
 #post p {
     color: black;
 }
+
